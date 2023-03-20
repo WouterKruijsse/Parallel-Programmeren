@@ -4,6 +4,6 @@ module load buildtools
 module load git
 module load gh
 module list
-export PYTHONUSERBASE=/data/antwerpen/guest/your_guest_id/.local
+export PYTHONUSERBASE=/data/antwerpen/guest/004/.local
 mkdir -p ${PYTHONUSERBASE}
 export PATH="$PATH:${PYTHONUSERBASE}/bin"
