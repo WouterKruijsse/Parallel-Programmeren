@@ -1,0 +1,9 @@
+module load Python
+module load numba
+module load buildtools
+module load git
+module load gh
+module list
+export PYTHONUSERBASE=/data/antwerpen/guest/your_guest_id/.local
+mkdir -p ${PYTHONUSERBASE}
+export PATH="$PATH:${PYTHONUSERBASE}/bin"
